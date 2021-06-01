@@ -18,3 +18,12 @@ module.exports = {
   Tag,
   ProductTag,
 };
+// EXAMPLE OF FOREIGN KEY FOR ABOVE!!! 
+
+// Gallery.hasMany(Painting, {
+//   foreignKey: 'gallery_id',
+// });
+
+// Painting.belongsTo(Gallery, {
+//   foreignKey: 'gallery_id',
+// });
